@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Norse";
+    src: url('https://fonts.cdnfonts.com/css/norse')
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 500px;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: 100% 100%;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.container {
+    width: 900px; 
+    height: 100px; 
+    background-color: rgb(0 0 0 / 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.logoName {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: #596D48;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    box-shadow: 3px 3px 4px black;
+}
+
+a {
+    font-weight: bold;
+    color: #596D48;
+    text-decoration: none;
+}
+
+form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    background-color: white;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 30px 30px 30px 0;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+}    
+
+.email_number {
+    display: flex;
+    flex-direction: row;    
+}
+
+.password {
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    font-size: 20px;
+    padding: 12px 12px 12px 0;
+}
+
+label, input {
+    display: block;
+}
+
+input {
+    margin-right: 50px;
+    width: 200px;
+    height: 25px;
+}
